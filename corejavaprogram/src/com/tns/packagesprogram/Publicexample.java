@@ -1,0 +1,19 @@
+package com.tns.packagesprogram;
+// demo packages
+public class Publicexample {
+	
+	public int a=9;
+	
+	public char f='y';   // data members or properties
+	
+	public static void main (string[] args) {
+		Publicexample u=new Publicexample(); //object creation
+		
+         System.out.println(u.a);
+        
+		
+		
+	}
+	
+
+}
