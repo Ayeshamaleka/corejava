@@ -21,8 +21,6 @@ public class Personexec {
 	System.out.println("after calu tax");
 	System.out.println(pp);
 	
-	
-
 	}
 
 }

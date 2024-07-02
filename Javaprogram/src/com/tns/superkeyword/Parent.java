@@ -4,9 +4,8 @@ public class Parent {
 	
 	int a=4;
 	void drink() {
-		System.out.println("tea");
-		
-
+		System.out.println("tea"); 
+	
 	}
 
 }

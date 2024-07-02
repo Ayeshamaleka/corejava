@@ -1,6 +1,6 @@
 package com.tns.demointerface;
 //program for bank interface implementation
-public class Bankimplementation implements Bank {
+public class Bankimplementation implements Bank,RBI {
 
 	@Override
 	public void withdraw(Account account, double amount) {
@@ -26,6 +26,12 @@ public class Bankimplementation implements Bank {
 			account.setBalance(account.getBalance()+amount);	
 			System.out.println("The amount after deposit is"+account.getBalance());			
 		}
+	}
+
+	@Override
+	public void rateofinterface() {
+		
+		
 	}
 	
 }
