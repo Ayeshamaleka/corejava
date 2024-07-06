@@ -6,7 +6,7 @@ public class Studentmain {
 		
 		//int[] arr; arr is a variable with type integer
 		
-		Student[] arr;//-->
+		Student[] arr;   //-->arr in a variable with type student(class)
 		arr=new Student[3];
 		arr[0]=new Student(101,"NEHA","ECE");
 		arr[1]=new Student(102,"SUDHA","ECE");
@@ -17,11 +17,8 @@ public class Studentmain {
 			System.out.println("The elements of array"
 			                    +arr[i].getSid()+","
 			                    +arr[i].getSname()+","
-			                    +arr[i].getSbranch());
-			
+			                    +arr[i].getSbranch());	
 		}
-			
 				
-	
 	}
 }

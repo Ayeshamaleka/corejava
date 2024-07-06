@@ -21,6 +21,7 @@ public class Demomulti {
 		}
 			System.out.println();
 		}
+		
 	}
 		
 }

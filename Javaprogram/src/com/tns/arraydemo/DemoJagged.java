@@ -1,5 +1,5 @@
 package com.tns.arraydemo;
-
+//demo for Jagged array
 public class DemoJagged {
 
 	public static void main(String[] args) {
