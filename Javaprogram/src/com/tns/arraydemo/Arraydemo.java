@@ -1,12 +1,7 @@
 package com.tns.arraydemo;
 
 public class Arraydemo {
-	
-	
-	
-	
-	
-	
+		
 //	//declaration and initialization 
      int a[] =new int[5];
 	
