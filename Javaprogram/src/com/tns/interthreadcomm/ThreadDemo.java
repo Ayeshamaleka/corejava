@@ -4,29 +4,34 @@ public class ThreadDemo {
 
 	int i;//sending message
 	boolean flag=false;
+	
 	synchronized void deliver(int i) {
-		if(flag) {
+		if(flag) 
 			try {
 				wait();
 				
-			}catch (InterruptedException e) {
+			}
+		catch (InterruptedException e) {
 				e.printStackTrace();
+				System.err.println("Exception Caught");
 				
 			}
 			this.i=i;
 			flag=true;
-			System.err.println("DATA DELIVERED"+i);
+			System.out.println("DATA DELIVERED"+i);
 			notify();//notifying to thread 1 or notifying to receiver
 					
 		}
-	}
+	
 	
 	synchronized int receiver() {
-		if(flag) {
+		if(!flag) 
 			try {
 				wait();
 				
-			}catch (InterruptedException e) {
+			}
+		catch (InterruptedException e) {
+			System.err.println("Exception caught");
 				e.printStackTrace();
 				
 			}
@@ -35,9 +40,7 @@ public class ThreadDemo {
 			System.err.println("DATA RECEIVED"+i);
 			notify();//notifying to thread 1
 			return i;		
-		}
-		return i;
-		
+	
 	}
 	
 }
