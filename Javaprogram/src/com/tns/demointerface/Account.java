@@ -38,7 +38,4 @@ public class Account {
 		this.bank = bank;
 	}
 	
-	
-	
-
 }

@@ -10,8 +10,7 @@ public class Bankmain {
 		
 		bank.withdraw(account, 500);
 		bank.deposit(account, 20000);
-				
-
+	
 	}
 
 }
