@@ -7,7 +7,7 @@ public class Demoarraylist {
 	public static void main(String[] args) {
 		
 //stores homogeneous and heterogeneous
-		//arraylist allow duplicates
+		//ArrayList allow duplicates
 		ArrayList<Integer>a1=new ArrayList();
 		a1.add(10);
 		a1.add(20);
@@ -16,7 +16,7 @@ public class Demoarraylist {
 		a1.add(40);
 		
 		System.out.println("the elements in the arraylist"+a1);
-		
+		//ArrayList follow insertion order
 	}
 
 }
