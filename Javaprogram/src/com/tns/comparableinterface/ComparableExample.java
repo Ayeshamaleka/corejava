@@ -16,6 +16,7 @@ public class ComparableExample {
 		System.out.println("Data before sorting");
 		System.out.println(l);
 
+		
 		for(Person p:l) {
 			System.out.println(p);
 		}
