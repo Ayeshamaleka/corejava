@@ -11,7 +11,7 @@ public class JdbcDemo {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		
 		//load the driver
-		Class.forName("org.postgres.Driver");
+		Class.forName("org.postgresql.Driver");
 		
 		//get Connection
 		Connection con=DriverManager.getConnection("jdbc:postgresql:"
@@ -29,8 +29,8 @@ public class JdbcDemo {
 				
 		//traverse through the table 
 		while(rs.next()) {
-			System.out.println(rs.getInt(1)+ "/t" +rs.getString(2)
-					                            +"/t"+rs.getString(3));
+			System.out.println(rs.getInt(1)+ "\t" +rs.getString(2)
+					                            +"\t"+rs.getString(3));
 				}
 
     	//close statement

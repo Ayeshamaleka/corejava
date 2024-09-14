@@ -31,8 +31,8 @@ public class JdbcDemo {
 		
 		//traverse through the table 
 		while(rs.next()) {
-			System.out.println(rs.getInt(1)+ "/t" +rs.getString(2)
-			                            +"/t"+rs.getString(3));
+			System.out.println(rs.getInt(1)+ "\t" +rs.getString(2)
+			                            +"\t"+rs.getString(3));
 		}
 		
 		//close statement
