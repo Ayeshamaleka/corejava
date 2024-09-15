@@ -40,8 +40,7 @@ public class JdbcDemo {
 		
 		//close connection
 		con.close();
-		
-		
+				
 	}
 
 }
